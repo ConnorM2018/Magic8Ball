@@ -9,8 +9,11 @@ public class Main {
         Scanner keyboard;
         int number;
         String question;
+        keyboard = new Scanner(System.in);
 
         //initialize
-        
+        System.out.println("Welcome to Magic 8 Ball.");
+        System.out.print("Please ask a question.");
+        question = keyboard.nextLine();
     }
 }
