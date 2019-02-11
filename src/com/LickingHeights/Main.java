@@ -55,6 +55,9 @@ public class Main {
         else if(number<100) {
             System.out.println("Probably not.");
         }
+        else if(number==100) {
+            System.out.println("Maybe.");
+        }
         else {
             System.out.println("Reply hazy, please try again later.");
         }
